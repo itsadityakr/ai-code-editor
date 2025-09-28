@@ -1,0 +1,100 @@
+[
+    {
+        "id": "arr001",
+        "title": "Find Maximum Value",
+        "prompt": "Write a function that finds the maximum value in an array of numbers.",
+        "difficulty": "Easy",
+        "categories": ["Arrays"],
+        "starterCode": {
+            "javascript": "function findMax(arr) {\n  // Your code here\n}",
+            "python": "def find_max(arr):\n  # Your code here\n  pass",
+            "java": "class Solution {\n    public int findMax(int[] arr) {\n        // Your code here\n    }\n}",
+            "go": "package main\n\nfunc FindMax(arr []int) int {\n\t// Your code here\n}",
+            "cpp": "#include <vector>\n\nint findMax(const std::vector<int>& arr) {\n    // Your code here\n}"
+        }
+    },
+    {
+        "id": "arr002",
+        "title": "Two Sum",
+        "prompt": "Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.",
+        "difficulty": "Easy",
+        "categories": ["Arrays"],
+        "starterCode": {
+            "javascript": "function twoSum(nums, target) {\n  // Your code here\n}",
+            "python": "def two_sum(nums, target):\n  # Your code here\n  pass",
+            "java": "class Solution {\n    public int[] twoSum(int[] nums, int target) {\n        // Your code here\n    }\n}",
+            "go": "package main\n\nfunc TwoSum(nums []int, target int) []int {\n\t// Your code here\n}",
+            "cpp": "#include <vector>\n\nstd::vector<int> twoSum(const std::vector<int>& nums, int target) {\n    // Your code here\n}"
+        }
+    },
+    {
+        "id": "arr003",
+        "title": "Rotate Array",
+        "prompt": "Given an array, rotate the array to the right by k steps, where k is a non-negative integer.",
+        "difficulty": "Medium",
+        "categories": ["Arrays"],
+        "starterCode": {
+            "javascript": "function rotate(nums, k) {\n  // Your code here\n}",
+            "python": "def rotate(nums, k):\n  # Your code here\n  pass",
+            "java": "class Solution {\n    public void rotate(int[] nums, int k) {\n        // Your code here\n    }\n}",
+            "go": "package main\n\nfunc Rotate(nums []int, k int) {\n\t// Your code here\n}",
+            "cpp": "#include <vector>\n\nvoid rotate(std::vector<int>& nums, int k) {\n    // Your code here\n}"
+        }
+    },
+    {
+        "id": "str001",
+        "title": "Reverse a String",
+        "prompt": "Write a function that reverses a string.",
+        "difficulty": "Easy",
+        "categories": ["Strings"],
+        "starterCode": {
+            "javascript": "function reverseString(str) {\n  // Your code here\n}",
+            "python": "def reverse_string(s):\n  # Your code here\n  pass",
+            "java": "class Solution {\n    public String reverseString(String s) {\n        // Your code here\n    }\n}",
+            "go": "package main\n\nfunc ReverseString(s string) string {\n\t// Your code here\n}",
+            "cpp": "#include <string>\n\nhttps://www.google.com/search?q=std::string reverseString(const https://www.google.com/search?q=std::string& s) {\n    // Your code here\n}"
+        }
+    },
+    {
+        "id": "str002",
+        "title": "Valid Palindrome",
+        "prompt": "Given a string s, determine if it is a palindrome, considering only alphanumeric characters and ignoring cases.",
+        "difficulty": "Easy",
+        "categories": ["Strings"],
+        "starterCode": {
+            "javascript": "function isPalindrome(s) {\n  // Your code here\n}",
+            "python": "def is_palindrome(s):\n  # Your code here\n  pass",
+            "java": "class Solution {\n    public boolean isPalindrome(String s) {\n        // Your code here\n    }\n}",
+            "go": "package main\n\nfunc IsPalindrome(s string) bool {\n\t// Your code here\n}",
+            "cpp": "#include <string>\n\nbool isPalindrome(const https://www.google.com/search?q=std::string& s) {\n    // Your code here\n}"
+        }
+    },
+    {
+        "id": "str003",
+        "title": "Longest Substring Without Repeating Characters",
+        "prompt": "Given a string s, find the length of the longest substring without repeating characters.",
+        "difficulty": "Medium",
+        "categories": ["Strings"],
+        "starterCode": {
+            "javascript": "function lengthOfLongestSubstring(s) {\n  // Your code here\n}",
+            "python": "def length_of_longest_substring(s):\n  # Your code here\n  pass",
+            "java": "class Solution {\n    public int lengthOfLongestSubstring(String s) {\n        // Your code here\n    }\n}",
+            "go": "package main\n\nfunc LengthOfLongestSubstring(s string) int {\n\t// Your code here\n}",
+            "cpp": "#include <string>\n\nint lengthOfLongestSubstring(const https://www.google.com/search?q=std::string& s) {\n    // Your code here\n}"
+        }
+    },
+    {
+        "id": "multi001",
+        "title": "Summary Ranges",
+        "prompt": "You are given a sorted unique integer array nums. Return the smallest sorted list of ranges that cover all the numbers in the array exactly. The output should be an array of strings.",
+        "difficulty": "Medium",
+        "categories": ["Arrays", "Strings"],
+        "starterCode": {
+            "javascript": "function summaryRanges(nums) {\n  // Your code here\n}",
+            "python": "def summary_ranges(nums):\n  # Your code here\n  pass",
+            "java": "import java.util.List;\n\nclass Solution {\n    public List<String> summaryRanges(int[] nums) {\n        // Your code here\n    }\n}",
+            "go": "package main\n\nfunc SummaryRanges(nums []int) []string {\n\t// Your code here\n}",
+            "cpp": "#include <vector>\n#include <string>\n\nstd::vectorstd::string summaryRanges(const std::vector<int>& nums) {\n    // Your code here\n}"
+        }
+    }
+]
